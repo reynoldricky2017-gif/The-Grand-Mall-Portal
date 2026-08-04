@@ -1,8 +1,7 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false,
+  "version": 2,
   "rewrites": [
-    { "source": "/", "destination": "/index.html" },
-    { "source": "/portal", "destination": "/portal.html" }
+    { "source": "/", "destination": "/client/portal.html" },
+    { "source": "/portal", "destination": "/client/portal.html" }
   ]
 }
